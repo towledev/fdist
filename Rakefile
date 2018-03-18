@@ -17,11 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fdist"
   gem.homepage = "http://github.com/towledev/fdist"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Enumerable#fdist}
+  gem.description = %Q{Helper function for the Enumerable module which returns a frequency distribution.}
   gem.email = "towledev@gmail.com"
   gem.authors = ["M. Towle"]
   # dependencies defined in Gemfile
+  gem.files.include "lib/fdist.rb"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
