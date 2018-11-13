@@ -13,4 +13,7 @@ module Enumerable
 		end
 		.sort_by(&:last)
 	end
+	def commonest
+		fdist.last.first
+	end
 end
